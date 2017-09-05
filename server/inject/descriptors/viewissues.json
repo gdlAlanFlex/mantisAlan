@@ -63,7 +63,8 @@
     "is_issueslist": {
       "type": "identifier",
       "selector": "body",
-      "selectContains": "view issues details"
+      "selectContains": "view issues details",
+      "control": "exists"
     }
   },
   "connect": []
