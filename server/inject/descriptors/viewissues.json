@@ -61,7 +61,8 @@
       "selectorAll": "#buglist tr[bgcolor]"
     },
     "is_issueslist": {
-      "type": "identifier"
+      "type": "identifier",
+      "selector": "#buglist tr[bgcolor]"
     }
   },
   "connect": []
