@@ -8,8 +8,8 @@
     },
     "clickviewissueslink": {
       "type": "action",
-      "selector": ".subtle",
-      "control": "action.link"
+      "control": "action.link",
+      "selector": ".subtle"
     }
   },
   "connect": []
