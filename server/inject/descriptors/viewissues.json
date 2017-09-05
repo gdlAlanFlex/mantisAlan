@@ -29,13 +29,19 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selectIndex": 8,
+            "selector": "td",
+            "control": "property.innerText"
           },
           "severity": {
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 7,
+            "control": "property.innerText"
           },
           "assignedto": {
             "type": "string",
