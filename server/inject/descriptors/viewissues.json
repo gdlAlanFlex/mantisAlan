@@ -47,7 +47,8 @@
       },
       "update": {
         "type": "none"
-      }
+      },
+      "selectorAll": "#buglist tr[bgcolor]"
     },
     "is_issuelist": {
       "type": "identifier",
