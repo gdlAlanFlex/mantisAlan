@@ -59,6 +59,9 @@
         "type": "none"
       },
       "selectorAll": "#buglist tr[bgcolor]"
+    },
+    "is_issueslist": {
+      "type": "identifier"
     }
   },
   "connect": []
