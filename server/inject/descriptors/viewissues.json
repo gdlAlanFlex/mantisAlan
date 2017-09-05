@@ -54,7 +54,10 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selectIndex": 9,
+            "selector": "td",
+            "control": "property.innerText"
           }
         }
       },
