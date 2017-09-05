@@ -5,6 +5,11 @@
       "type": "identifier",
       "control": "exists",
       "selector": ".subtle[href]"
+    },
+    "clickviewissueslink": {
+      "type": "action",
+      "selector": ".subtle",
+      "control": "action.link"
     }
   },
   "connect": []
