@@ -20,7 +20,10 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selectIndex": 10,
+            "selector": "td",
+            "control": "property.innerText"
           },
           "status": {
             "type": "string",
