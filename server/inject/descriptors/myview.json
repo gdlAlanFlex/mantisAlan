@@ -3,8 +3,8 @@
   "properties": {
     "ismyview": {
       "type": "identifier",
-      "selector": "body",
-      "control": "property.innerText"
+      "control": "property.innerText",
+      "selector": ".subtle[href]"
     }
   },
   "connect": []
