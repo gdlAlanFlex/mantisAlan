@@ -14,7 +14,8 @@
             },
             "selector": "td",
             "selectContains": "ID",
-            "control": "text"
+            "control": "text",
+            "selectIndex": 3
           },
           "summary": {
             "type": "string",
