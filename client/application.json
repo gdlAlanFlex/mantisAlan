@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "779bcb55",
   "uiCommonVersion": "5.1.2",
-  "creatorId": "gdlalanm"
+  "creatorId": "gdlalanm",
+  "id": "mantisalan",
+  "previewImageURL": "/previews/779bcb55-mantisalan/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/gdlAlanFlex/mantisAlan",
+  "creatorName": "Alan Medina"
 }
