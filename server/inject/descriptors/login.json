@@ -51,8 +51,8 @@
     },
     "islogin": {
       "type": "identifier",
-      "selector": "font",
-      "control": "property.innerText"
+      "selector": ".form-title",
+      "control": "exists"
     }
   },
   "connect": []
