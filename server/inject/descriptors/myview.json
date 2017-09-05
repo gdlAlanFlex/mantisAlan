@@ -12,5 +12,12 @@
       "selector": ".subtle"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "ismyview"
+      ],
+      "action": "clickviewissueslink"
+    }
+  ]
 }
