@@ -3,7 +3,7 @@
   "properties": {
     "ismyview": {
       "type": "identifier",
-      "control": "property.innerText",
+      "control": "exists",
       "selector": ".subtle[href]"
     }
   },
