@@ -13,7 +13,6 @@
               "type": "none"
             },
             "selector": "td",
-            "selectContains": "ID",
             "control": "property.innerText",
             "selectIndex": 3
           },
