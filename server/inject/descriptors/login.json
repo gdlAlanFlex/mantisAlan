@@ -48,6 +48,11 @@
       },
       "selector": ".button",
       "control": "action.button"
+    },
+    "islogin": {
+      "type": "identifier",
+      "selector": "font",
+      "control": "property.innerText"
     }
   },
   "connect": []
