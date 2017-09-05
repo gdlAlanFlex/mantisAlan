@@ -32,7 +32,8 @@
               "type": "none"
             },
             "selectIndex": 8,
-            "selector": "td"
+            "selector": "td",
+            "control": "property.innerText"
           },
           "severity": {
             "type": "string",
