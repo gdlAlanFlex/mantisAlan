@@ -23,7 +23,9 @@
             "format": "MM/DD/YYYY"
           },
           "private": {
-            "type": "boolean"
+            "type": "boolean",
+            "selector": "[name=\"view_state\"]",
+            "control": "radio"
           },
           "public": {
             "type": "string"
