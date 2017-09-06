@@ -24,7 +24,7 @@
     },
     "isReportIssue": {
       "type": "identifier",
-      "selector": ".width90",
+      "selector": "[name=\"report_bug_form\"]",
       "control": "exists"
     }
   },
