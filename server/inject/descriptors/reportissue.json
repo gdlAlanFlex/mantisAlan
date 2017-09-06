@@ -30,7 +30,9 @@
   },
   "connect": [
     {
-      "match": [],
+      "match": [
+        "isReportIssue"
+      ],
       "screens": [
         "reportissue"
       ]
