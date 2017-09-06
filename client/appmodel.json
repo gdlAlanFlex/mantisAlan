@@ -135,26 +135,6 @@
     "type": "object",
     "comment": "",
     "properties": {
-      "newissue": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "category": {
-              "type": "select"
-            },
-            "summary": {
-              "type": "string"
-            },
-            "description": {
-              "type": "string"
-            }
-          }
-        },
-        "update": {
-          "type": "none"
-        }
-      },
       "createissue": {
         "type": "action"
       }
