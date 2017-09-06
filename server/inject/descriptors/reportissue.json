@@ -20,7 +20,7 @@
     "description": {
       "type": "string",
       "selector": ".width90",
-      "control": "text"
+      "control": "exists"
     },
     "isReportIssue": {
       "type": "identifier",
