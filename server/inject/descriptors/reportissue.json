@@ -37,5 +37,14 @@
       "selectContains": "Enter Report Details"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "newissueid"
+      ],
+      "screens": [
+        "reportissue"
+      ]
+    }
+  ]
 }
