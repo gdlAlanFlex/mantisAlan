@@ -30,7 +30,7 @@
           }
         }
       },
-      "selectorAll": "td[class=\"form-title\"]"
+      "selectorAll": "[class=\"form-title\"]"
     },
     "newissueid": {
       "type": "identifier",
