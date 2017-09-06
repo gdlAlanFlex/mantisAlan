@@ -4,11 +4,13 @@
   "properties": {
     "createissue": {
       "type": "action",
-      "selector": ".buttonvalue=\"Submit Report\"]",
+      "selector": ".button[value=\"Submit Report\"]",
       "control": "action.button"
     },
     "category": {
-      "type": "select"
+      "type": "select",
+      "selector": "[name=\"category_id\"]",
+      "control": "select"
     },
     "summary": {
       "type": "string"
