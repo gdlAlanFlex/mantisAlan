@@ -29,7 +29,9 @@
       }
     },
     "createissue": {
-      "type": "action"
+      "type": "action",
+      "selector": ".button[value=\"submit\"]",
+      "control": "action.button"
     }
   },
   "connect": []
