@@ -130,5 +130,32 @@
         }
       }
     }
+  },
+  "reportissue": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "newissue": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "category": {
+              "type": "select"
+            },
+            "summary": {
+              "type": "string"
+            },
+            "photo": {
+              "type": "string"
+            },
+            "updated": {
+              "type": "date",
+              "format": "MM/DD/YYYY"
+            }
+          }
+        }
+      }
+    }
   }
 }
