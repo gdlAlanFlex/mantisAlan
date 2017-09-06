@@ -24,8 +24,8 @@
     },
     "isReportIssue": {
       "type": "identifier",
-      "selector": "[name=\"description\"]",
-      "control": "text"
+      "selector": ".width90",
+      "control": "exists"
     }
   },
   "connect": [
