@@ -45,7 +45,7 @@
                         <button class="button button-icon" ng-if="style === 'control'">
                             <i class="icon positive-icon ion-camera"></i>
                         </button>
-                        <input disabled="" ng-if="style === 'control'" type="text">
+                        <input disabled="" ng-if="style === 'control'" ng-model="item.photo" type="text">
                         <input disabled="" ng-if="style === 'control'" type="text">
                         <button class="button button-block button-positive nomargin"
                             ng-if="style === 'button'">Custom Photo</button>
