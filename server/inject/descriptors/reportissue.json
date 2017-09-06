@@ -29,6 +29,12 @@
         }
       },
       "selectorAll": "td[class=\"form-title\"]"
+    },
+    "newissueid": {
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "exists",
+      "selectContains": "Enter Report Details"
     }
   },
   "connect": []
