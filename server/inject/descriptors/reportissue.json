@@ -13,7 +13,9 @@
             "control": "select"
           },
           "summary": {
-            "type": "string"
+            "type": "string",
+            "selector": "[name=\"summary\"]",
+            "control": "text"
           },
           "photo": {
             "type": "string"
