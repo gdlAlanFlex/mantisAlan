@@ -33,6 +33,11 @@
       "type": "action",
       "selector": ".button[value=\"submit\"]",
       "control": "action.button"
+    },
+    "isreportissue": {
+      "type": "identifier",
+      "selector": ".button[value=\"Submit Report\"]",
+      "control": "exists"
     }
   },
   "connect": []
