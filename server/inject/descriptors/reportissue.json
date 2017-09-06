@@ -30,7 +30,9 @@
             "control": "radio"
           },
           "public": {
-            "type": "string"
+            "type": "string",
+            "selector": "[name=\"view_state\"]",
+            "control": "radio"
           }
         }
       },
