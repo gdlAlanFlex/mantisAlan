@@ -36,7 +36,7 @@
     },
     "newissueid": {
       "type": "identifier",
-      "selector": ".form-title",
+      "selector": "[class=\"form-title\"]",
       "control": "exists",
       "selectContains": "Enter Report Details"
     }
