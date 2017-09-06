@@ -28,14 +28,5 @@
       "control": "exists"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isReportIssue"
-      ],
-      "screens": [
-        "reportissue"
-      ]
-    }
-  ]
+  "connect": []
 }
