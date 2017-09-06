@@ -141,10 +141,7 @@
           "type": "object",
           "properties": {
             "category": {
-              "type": "select",
-              "update": {
-                "type": "none"
-              }
+              "type": "select"
             },
             "summary": {
               "type": "string"
