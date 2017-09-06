@@ -137,6 +137,15 @@
     "properties": {
       "createissue": {
         "type": "action"
+      },
+      "category": {
+        "type": "select"
+      },
+      "summary": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
       }
     }
   }
