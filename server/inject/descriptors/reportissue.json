@@ -32,7 +32,7 @@
           }
         }
       },
-      "selectorAll": "table"
+      "selectorAll": "table[class=\"width90\"]"
     },
     "newissueid": {
       "type": "identifier",
