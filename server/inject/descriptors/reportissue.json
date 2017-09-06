@@ -19,6 +19,11 @@
     },
     "description": {
       "type": "string",
+      "selector": ".width90",
+      "control": "text"
+    },
+    "isReportIssue": {
+      "type": "identifier",
       "selector": "[name=\"description\"]",
       "control": "text"
     }
