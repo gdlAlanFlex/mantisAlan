@@ -22,7 +22,7 @@
           },
           "private": {
             "type": "boolean",
-            "selector": "[name=\"view_state\"]",
+            "selector": "form table tbody input[type=\"radio\"]",
             "control": "radio"
           },
           "public": {
