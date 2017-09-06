@@ -4,12 +4,10 @@
             <button class="button button-icon ion-navicon" data-comp-id="button.1"></button>
         </ion-nav-buttons>
         <ion-nav-title data-comp-id="nav-title.1">Report Issue</ion-nav-title>
-        <ion-nav-buttons side="right">
-            <button class="button button-icon ion-home" data-comp-id="button.2"></button>
-        </ion-nav-buttons>
+        <ion-nav-buttons side="right"></ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <div class="card" data-comp-id="div.1" ng-repeat="item in data.newissue">
+        <div class="card" data-comp-id="div.1">
             <div class="row " data-comp-id="row.1">
                 <div class="col" data-comp-id="column.1">
                     <label class="item  item-input item-select-icon positive-icon"
@@ -30,26 +28,9 @@
             </div>
             <div class="row" data-comp-id="row.3">
                 <div class="col" data-comp-id="column.3">
-                    <ion-radio class="radio-button" data-comp-id="radio.1" ng-value="1">Public</ion-radio>
-                </div>
-                <div class="col" data-comp-id="column.4">
-                    <ion-radio class="radio-button" data-comp-id="radio.2">Private</ion-radio>
-                </div>
-            </div>
-            <div class="row" data-comp-id="row.4">
-                <div class="col" data-comp-id="column.5">
-                    <label class="item" data-comp-id="customPhoto.1"
-                        ng-class="{'item-input item-button-right': style === 'control'}"
-                        take-photo="control">
-                        <span class="input-label" ng-if="style === 'control'">Custom Photo</span>
-                        <button class="button button-icon" ng-if="style === 'control'">
-                            <i class="icon positive-icon ion-camera"></i>
-                        </button>
-                        <input disabled="" ng-if="style === 'control'" ng-model="item.photo" type="text">
-                        <input disabled="" ng-if="style === 'control'" type="text">
-                        <button class="button button-block button-positive nomargin"
-                            ng-if="style === 'button'">Custom Photo</button>
-                        <textarea class="not-visible">{{mydata}}</textarea>
+                    <label class="item item-input item-stacked-label" data-comp-id="textAreaInput.1">
+                        <span class="input-label">Description</span>
+                        <textarea rows="4"></textarea>
                     </label>
                 </div>
             </div>
