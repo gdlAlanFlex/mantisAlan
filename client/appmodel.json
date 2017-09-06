@@ -146,14 +146,8 @@
             "summary": {
               "type": "string"
             },
-            "photo": {
+            "description": {
               "type": "string"
-            },
-            "private": {
-              "type": "boolean"
-            },
-            "public": {
-              "type": "boolean"
             }
           }
         },
