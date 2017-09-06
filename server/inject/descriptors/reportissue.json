@@ -31,7 +31,7 @@
     },
     "createissue": {
       "type": "action",
-      "selector": ".button[value=\"submit\"]",
+      "selector": ".button[value=\"Submit Report\"]",
       "control": "action.button"
     },
     "isreportissue": {
