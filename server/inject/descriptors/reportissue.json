@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "createissue": {
+      "type": "action",
+      "selector": ".buttonvalue=\"Submit Report\"]",
+      "control": "action.button"
+    },
+    "category": {
+      "type": "select"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "connect": []
+}
