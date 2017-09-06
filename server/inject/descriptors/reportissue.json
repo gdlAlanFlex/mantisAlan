@@ -18,7 +18,9 @@
       "control": "text"
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "selector": "[name=\"description\"]",
+      "control": "text"
     }
   },
   "connect": []
