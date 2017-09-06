@@ -149,10 +149,6 @@
             "photo": {
               "type": "string"
             },
-            "updated": {
-              "type": "date",
-              "format": "MM/DD/YYYY"
-            },
             "private": {
               "type": "boolean"
             },
